@@ -107,9 +107,9 @@ PythonTurtle==0.3.2
 pytweening==1.0.4
 pytz==2021.3
 #pywin32==228
-pywinpty==1.1.6
-PyYAML==5.4.1
-pyzmq
+#pywinpty==1.1.6
+#PyYAML==5.4.1
+#pyzmq
 qtconsole==5.2.2
 QtPy==2.0.0
 requests==2.26.0
