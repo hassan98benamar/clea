@@ -1,0 +1,10 @@
+{
+  "predict": [
+    {
+      "name": "version",
+      "location": "args",
+      "map": "version",
+      "type":"string" 
+    }
+  ]
+}

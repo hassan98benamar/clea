@@ -1,0 +1,12 @@
+{
+  "predict": {
+    "queryParam": [
+      {
+        "paramName": "version",
+        "paramDescription": "Model Version",
+        "paramType": "str",
+        "isMandatory": false
+      }
+    ]
+  }
+}

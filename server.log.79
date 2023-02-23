@@ -1,0 +1,19 @@
+23-02-10_17:54:17 - root - ERROR - An exception of type KeyError occurred.
+23-02-10_17:56:17 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:17 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:18 - root - INFO - running on 0.0.0.0:8000
+23-02-10_17:56:32 - root - INFO - {'period': '2'}
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+23-02-10_17:56:34 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+23-02-10_17:56:34 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.

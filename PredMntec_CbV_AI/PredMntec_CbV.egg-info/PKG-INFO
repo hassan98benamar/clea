@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PredMntec-CbV
+Version: 1.0
+Summary: Predicting the maintenance for the CbV
+Home-page: 
+Author: Capgemini
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Data Science
+Requires-Python: >=3.6
+
+UNKNOWN
+

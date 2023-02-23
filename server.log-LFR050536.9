@@ -1,0 +1,34 @@
+23-02-06_01:37:07 - PredMntec_CbV_Restapp.main - ERROR - Exception on /train/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\pandas\core\indexes\base.py", line 3803, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Control'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\flask_restplus\api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\flask\views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\flask_restplus\resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "C:\Users\frnana\OneDrive - Capgemini\Desktop\CLEA-Predictive-Mantenance-main\PredMntec_CbV_Restapp\main\controller\Training.py", line 175, in get
+    return do_training_all(request.args)
+  File "C:\Users\frnana\OneDrive - Capgemini\Desktop\CLEA-Predictive-Mantenance-main\PredMntec_CbV_Restapp\main\model\retrieve_data.py", line 393, in do_training_all
+    response,code = train_class.train_all_controls()
+  File "C:\Users\frnana\OneDrive - Capgemini\Desktop\CLEA-Predictive-Mantenance-main\PredMntec_CbV_AI\main\train.py", line 386, in train_all_controls
+    print('[INFO] Models to be trained: ', len(set(req_df['Control'])))
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\pandas\core\frame.py", line 3805, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\frnana\Miniconda3\lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Control'
